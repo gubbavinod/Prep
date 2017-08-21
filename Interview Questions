@@ -1,1 +1,35 @@
-Java Questions
+                                            Java Questions
+                                            
+1) What is difference between JDK,JRE and JVM?
+  
+  JVM
+      It is a specification that provides runtime environment in which java bytecode can be executed.
+      JVMs are available for many hardware and software platforms. 
+      JVM, JRE and JDK are platform dependent because configuration of each OS differs. But, Java is platform independent.
+      
+      https://www.javatpoint.com/internal-details-of-jvm
+  
+  JRE
+      It is used to provide runtime environment.It is the implementation of JVM. It physically exists. 
+      It contains set of libraries + other files that JVM uses at runtime.
+      Implementation of JVMs are also actively released by other companies besides Sun Micro Systems.
+      
+  JDK
+      It physically exists.It contains JRE + development tools.
+      
+2) How java is platform independent and dependent based on JVM?
+
+      //+++++++++++++++++++++++
+
+3) What gives Java its 'write once and run anywhere' nature?
+
+      The bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. 
+      This byte code is not platform specific and hence can be fed to any platform.
+      
+4) What if I write static public void instead of public static void?
+
+      Program compiles and runs properly.
+      
+5) What is the default value of the local variables?
+
+      The local variables are not initialized to any default value, neither primitives nor object references.
