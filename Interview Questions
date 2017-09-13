@@ -1,0 +1,45 @@
+                                            Java Questions
+                                            
+1) What is difference between JDK,JRE and JVM?
+  
+  JVM
+      It is a specification that provides runtime environment in which java bytecode can be executed.
+      JVMs are available for many hardware and software platforms. 
+      JVM, JRE and JDK are platform dependent because configuration of each OS differs. But, Java is platform independent.
+      
+      https://www.javatpoint.com/internal-details-of-jvm
+  
+  JRE
+      It is used to provide runtime environment.It is the implementation of JVM. It physically exists. 
+      It contains set of libraries + other files that JVM uses at runtime.
+      Implementation of JVMs are also actively released by other companies besides Sun Micro Systems.
+      
+  JDK
+      It physically exists.It contains JRE + development tools.
+      
+2) How java is platform independent and dependent based on JVM?
+
+      //+++++++++++++++++++++++
+
+3) What gives Java its 'write once and run anywhere' nature?
+
+      The bytecode. Java is compiled to be a byte code which is the intermediate language between source code and machine code. 
+      This byte code is not platform specific and hence can be fed to any platform.
+      
+4) What if I write static public void instead of public static void?
+
+      Program compiles and runs properly.
+      
+5) What is the default value of the local variables?
+
+      The local variables are not initialized to any default value, neither primitives nor object references.
+	  
+6) Why only 1 public class is allowed for one source file?
+
+	  the compiler would have to make an additional pass through all the compilation units (.java files) to figure out what classes were where, and that would make the compilation even slower.
+	  
+	  It's just to avoid confusion in the sense that Java was created with simplicity in mind from the perspective of the developer. Your "primary" classes are your public classes and they are easy to find (by a human) if they are in a file with the same name and in a directory specified by the class's package.
+	  
+	  I think the main reason was to optimize the compiler pass-throughs - the compiler does not have to guess or parse through files to locate the public classes. I think it's actually a good thing, it makes the code files much easier to find, and forces you to stay away from putting too much into one file. I also like how Java forces you to put your code files in the same directory structure as the package - that makes it easy to locate any code file.
+
+	  
