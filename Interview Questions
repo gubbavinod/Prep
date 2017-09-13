@@ -42,4 +42,6 @@
 	  
 	  I think the main reason was to optimize the compiler pass-throughs - the compiler does not have to guess or parse through files to locate the public classes. I think it's actually a good thing, it makes the code files much easier to find, and forces you to stay away from putting too much into one file. I also like how Java forces you to put your code files in the same directory structure as the package - that makes it easy to locate any code file.
 
+	  Ref. https://stackoverflow.com/questions/1318712/why-is-each-public-class-in-a-separate-file
 	  
+7)
