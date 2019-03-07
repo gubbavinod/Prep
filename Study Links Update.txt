@@ -31,6 +31,12 @@ https://www.softwaretestinghelp.com/core-java-interview-questions/
 https://doc.lagout.org/programmation/Java/Java%20Programming%20Interviews%20Exposed%20%5BMarkham%202014-02-17%5D.pdf
 https://www.pearsonfrank.com/blog/java-interview-questions/
 https://javarevisited.blogspot.com/2015/03/5-ways-to-convert-java-8-stream-to-list.html#at_pco=smlwn-1.0&at_si=5c7f9d66d7117777&at_ab=per-2&at_pos=0&at_tot=1
+https://www.edureka.co/blog/interview-questions/java-interview-questions/
+
+
+
+BOOKS
+https://doc.lagout.org/programmation/Java/Java%20Programming%20Interviews%20Exposed%20%5BMarkham%202014-02-17%5D.pdf
 
 
 
